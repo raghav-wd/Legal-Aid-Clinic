@@ -17,7 +17,55 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     
     <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.item{
+			height: 150px;
+		}
+		/* width */
+		::-webkit-scrollbar {
+		width: 5px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 5px grey;
+		border-radius: 10px;
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		background: gold;
+		border-radius: 1px;
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		background: goldenrod;
+		}
+
+		.help-sec {
+			background-color: #fff2b3;
+			color: #212121;
+			padding: 30px 300px 50px 300px;
+			margin-bottom: 50px;
+		}
+		.divider{
+			width: 15%;
+			height: 2px;
+			display: inline-block;
+			background-color: #212121;
+		}
+		@media only screen and (max-width: 600px) {
+			.help-sec {
+				padding: 24px 8px 24px 8px;
+				margin-bottom: 0;
+			}
+			.img-3 img{
+				height: 250px;
+			}
+		}
+	</style>
   </head>
   <body>
 
@@ -26,7 +74,7 @@
 				<div class="col-md-8 order-md-last">
 					<div class="row">
 						<div class="col-md-6 text-center">
-							<a class="navbar-brand" href="index.html">Legal Aid <span>Clinic</span> <small>Lucknow University</small></a>
+							<a class="navbar-brand" href="index.html" style="font-family: fantasy; letter-spacing: 3px;">Legal Aid <span style="color: #ffd600 ;">Clinic</span> <small>Lucknow University</small></a>
 						</div>
 						<!-- <div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
 							<form action="#" class="searchform order-lg-last">
@@ -59,13 +107,13 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
 	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="coming-soon.html" class="nav-link">Coming Soon</a></li>
-	        	<li class="nav-item"><a href="top-seller.html" class="nav-link">Top Seller</a></li>
-	        	<li class="nav-item"><a href="book.html" class="nav-link">Books</a></li>
-	        	<li class="nav-item"><a href="author.html" class="nav-link">Author</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+	        	<li class="nav-item"><a href="coming-soon.html" class="nav-link">Who we are</a></li>
+	        	<li class="nav-item"><a href="top-seller.html" class="nav-link">Our Activities</a></li>
+	        	<li class="nav-item"><a href="book.html" class="nav-link">Events</a></li>
+	        	<li class="nav-item"><a href="author.html" class="nav-link">Vidhi Sahayak</a></li>
+	        	<!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -78,52 +126,52 @@
         <div class="row no-gutters slider-text align-items-center">
           <div class="col-md-8 ftco-animate d-flex align-items-end">
           	<div class="text w-100">
-	            <h1 class="mb-4">Equal Access<br/>To Justice<br/>For All</h1>
+	            <h1 class="mb-4" style="font-family: fantasy;color: #212121">Equal Access<br/>To Justice<br/>For All</h1>
 	            <!-- <p class="mb-4 text-white"></p>
 	            <p><a href="#" class="btn btn-primary py-3 px-4">View All Books</a> <a href="#" class="btn btn-white py-3 px-4">Explore Now</a></p> -->
             </div>
           </div>
         </div>
       </div>
-    </section>
+	</section>
 
 		<section class="ftco-section ftco-no-pt mt-5 mt-md-0">
     	<div class="container">
-    		<div class="row">
-    			<div class="col-md-3 d-flex align-items-stretch ftco-animate">
-    				<div class="services-2 text-center">
-    					<div class="icon-wrap">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-	    						<span class="flaticon-fantasy"></span>
-	    					</div>
-    					</div>
-    					<h2><a href="#">Children's Book</a></h2>
-    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    				</div>
-    			</div>
-    			<div class="col-md-3 d-flex align-items-stretch ftco-animate">
+			<div class="row">
+				<div class="col-md-4 d-flex align-items-stretch ftco-animate">
+					<div class="services-2 text-center">
+						<div class="icon-wrap">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-model"></span>
+							</div>
+						</div>
+						<h2>Together</h2>
+						  <p>Let's work together and make the world a better place.</p>
+					</div>
+				</div>
+    			<div class="col-md-4 d-flex align-items-stretch ftco-animate">
     				<div class="services-2 text-center">
     					<div class="icon-wrap">
 	    					<div class="icon d-flex align-items-center justify-content-center">
 	    						<span class="flaticon-heart"></span>
 	    					</div>
     					</div>
-    					<h2><a href="#">Romance</a></h2>
-  						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+    					<h2><a href="#">Assistance</a></h2>
+  						<p>We are dedicated to our work, and we'll help you in every possible way.</p>
     				</div>
     			</div>
-    			<div class="col-md-3 d-flex align-items-stretch ftco-animate">
-    				<div class="services-2 text-center">
-    					<div class="icon-wrap">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-	    						<span class="flaticon-model"></span>
-	    					</div>
-    					</div>
-    					<h2><a href="#">Art &amp; Architecture</a></h2>
-  						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    				</div>
-    			</div>
-    			<div class="col-md-3 d-flex align-items-stretch ftco-animate">
+				<div class="col-md-4 d-flex align-items-stretch ftco-animate">
+					<div class="services-2 text-center">
+						<div class="icon-wrap">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-fantasy"></span>
+							</div>
+						</div>
+						<h2><a href="#">Experts</a></h2>
+						<p>Our team will walk you through all your legal and social problems.</p>
+					</div>
+				</div>
+    			<!-- <div class="col-md-3 d-flex align-items-stretch ftco-animate">
     				<div class="services-2 text-center">
     					<div class="icon-wrap">
 	    					<div class="icon d-flex align-items-center justify-content-center">
@@ -134,64 +182,54 @@
   						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
     				</div>
     			</div>
-    		</div>
+    		</div> -->
     	</div>
-    </section>
-
-		<section class="ftco-counter ftco-section ftco-no-pt ftco-no-pb img bg-light" id="section-counter">
-    	<div class="container">
-    		<div class="row">
-          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 py-4 mb-4">
-              <div class="text align-items-center">
-                <strong class="number" data-number="75678">0</strong>
-                <span>Active Readers</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 py-4 mb-4">
-              <div class="text align-items-center">
-                <strong class="number" data-number="3040">0</strong>
-                <span>Total Pages</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 py-4 mb-4">
-              <div class="text align-items-center">
-                <strong class="number" data-number="283">0</strong>
-                <span>Cup Of Coffee</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 py-4 mb-4">
-              <div class="text align-items-center">
-                <strong class="number" data-number="14500">0</strong>
-                <span>Facebook Fans</span>
-              </div>
-            </div>
-          </div>
-        </div>
-    	</div>
-    </section>
-
+	</section>
+	
+	<section class="help-sec">
+		<div class="container">
+			<h2 class="text-center">Get Help</h2>
+			<div class="text-center">
+				<div class="divider"></div>
+			</div>
+			<p class="text-center">
+				A person facing civil legal problems related to health, housing, family, money and work does not have a
+				right
+				to a
+				court appointed lawyer in most cases. Legal Aid works to fill this gap and help as many people as possible.
+			</p>
+			<div class="row">
+				<div class="mx-auto">
+					<button type="button" class="btn btn-outline-warning" style="color: #212121;">Click here to
+						reach us.</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	
     <section class="ftco-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about-1.jpg);">
+					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center">
+						<img src='images/fist.svg'/>
 					</div>
 					<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
-	          <div class="heading-section">
-	          	<span class="subheading">Welcome To Publishing Company</span>
-	            <h2 class="mb-4">Publishing Company Created By Authors</h2>
-
-	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-
-	            <a href="#" class="btn btn-primary">View All Our Authors</a>
-	          </div>
+					<div class="heading-section">
+						<h2 class="text-center">What's Legal Aid?</h2>
+						<p style="text-align: justify;">
+							The Legal Services Clinic offers legal services by the students. It provides free legal services to the socially
+							and the economically backward sections of the society who have difficulty accessing the judicial system.
+						</p>
+						<div class="text-center">
+							<div class="divider"></div>
+						</div>
+						<br/>
+						<h2 class="text-center">Our Causes</h2>
+						<p style="text-align: justify;">"I had learnt the true practice of law, I had learnt to find out the better side of human nature and to
+							enter men's hearts I realized that the true function of a lawyer was to unite parties given as under.
+							The lesson was so indelibly burnt into me that large part of my time during the twenty years of my
+							practice as a lawyer was occupied in bringing about private compromises of hundreds of cases"</p>
+					</div>
 
 					</div>
 				</div>
@@ -202,14 +240,14 @@
     	<div class="container-fluid px-md-4">
     		<div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-          	<span class="subheading">Books</span>
-            <h2>New Release</h2>
+          	<span class="subheading">Works</span>
+            <h2>Highlights</h2>
           </div>
         </div>
     		<div class="row">
     			<div class="col-md-6 col-lg-4 d-flex">
     				<div class="book-wrap d-lg-flex">
-    					<div class="img d-flex justify-content-end" style="background-image: url(images/book-1.jpg);">
+    					<div class="img d-flex justify-content-end" style="background-image: url(images/ab1.jpg);">
     						<div class="in-text">
     							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
     								<span class="flaticon-shopping-cart"></span>
@@ -226,7 +264,6 @@
     						</div>
     					</div>
     					<div class="text p-4">
-    						<p class="mb-2"><span class="price">$12.00</span></p>
     						<h2><a href="#">You Are Your Only Limit</a></h2>
     						<span class="position">By John Nathan Muller</span>
     					</div>
@@ -234,7 +271,7 @@
     			</div>
     			<div class="col-md-6 col-lg-4 d-flex">
     				<div class="book-wrap d-lg-flex">
-    					<div class="img d-flex justify-content-end" style="background-image: url(images/book-2.jpg);">
+    					<div class="img d-flex justify-content-end" style="background-image: url(images/ab2.jpg);">
     						<div class="in-text">
     							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
     								<span class="flaticon-shopping-cart"></span>
@@ -251,7 +288,6 @@
     						</div>
     					</div>
     					<div class="text p-4">
-    						<p class="mb-2"><span class="price sale">$12.00</span> <span class="price">$8.00</span></p>
     						<h2><a href="#">101 Essays That Will Change The Way Your Thinks</a></h2>
     						<span class="position">By John Nathan Muller</span>
     					</div>
@@ -259,7 +295,7 @@
     			</div>
     			<div class="col-md-6 col-lg-4 d-flex">
     				<div class="book-wrap d-lg-flex">
-    					<div class="img d-flex justify-content-end" style="background-image: url(images/book-3.jpg);">
+    					<div class="img d-flex justify-content-end" style="background-image: url(images/ab3.jpg);">
     						<div class="in-text">
     							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
     								<span class="flaticon-shopping-cart"></span>
@@ -276,7 +312,6 @@
     						</div>
     					</div>
     					<div class="text p-4">
-    						<p class="mb-2"><span class="price">$12.00</span></p>
     						<h2><a href="#">Your Soul Is A River</a></h2>
     						<span class="position">By John Nathan Muller</span>
     					</div>
@@ -285,7 +320,7 @@
 
     			<div class="col-md-6 col-lg-4 d-flex">
     				<div class="book-wrap d-lg-flex">
-    					<div class="img d-flex justify-content-end" style="background-image: url(images/book-4.jpg);">
+    					<div class="img d-flex justify-content-end" style="background-image: url(images/ab4.jpg);">
     						<div class="in-text">
     							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
     								<span class="flaticon-shopping-cart"></span>
@@ -302,7 +337,6 @@
     						</div>
     					</div>
     					<div class="text p-4 order-md-first">
-    						<p class="mb-2"><span class="price">$9.00</span></p>
     						<h2><a href="#">All The Letters I Should Have Sent</a></h2>
     						<span class="position">By John Nathan Muller</span>
     					</div>
@@ -310,7 +344,7 @@
     			</div>
     			<div class="col-md-6 col-lg-4 d-flex">
     				<div class="book-wrap d-lg-flex">
-    					<div class="img d-flex justify-content-end" style="background-image: url(images/book-5.jpg);">
+    					<div class="img d-flex justify-content-end" style="background-image: url(images/ab5.jpg);">
     						<div class="in-text">
     							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
     								<span class="flaticon-shopping-cart"></span>
@@ -327,7 +361,6 @@
     						</div>
     					</div>
     					<div class="text p-4 order-md-first">
-    						<p class="mb-2"><span class="price">$20.00</span></p>
     						<h2><a href="#">Happy</a></h2>
     						<span class="position">By John Nathan Muller</span>
     					</div>
@@ -335,7 +368,7 @@
     			</div>
     			<div class="col-md-6 col-lg-4 d-flex">
     				<div class="book-wrap d-lg-flex">
-    					<div class="img d-flex justify-content-end" style="background-image: url(images/book-6.jpg);">
+    					<div class="img d-flex justify-content-end" style="background-image: url(images/ab6.jpg);">
     						<div class="in-text">
     							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
     								<span class="flaticon-shopping-cart"></span>
@@ -352,7 +385,6 @@
     						</div>
     					</div>
     					<div class="text p-4 order-md-first">
-    						<p class="mb-2"><span class="price">$12.00</span></p>
     						<h2><a href="#">Milk &amp; Honey</a></h2>
     						<span class="position">By John Nathan Muller</span>
     					</div>
@@ -362,7 +394,7 @@
     	</div>
     </section>
   
-    <section class="ftco-section testimony-section ftco-no-pb">
+    <!-- <section class="ftco-section testimony-section ftco-no-pb">
     	<div class="img img-bg border" style="background-image: url(images/bg_4.jpg);"></div>
     	<div class="overlay"></div>
       <div class="container">
@@ -376,85 +408,34 @@
           <div class="col-md-12">
             <div class="carousel-testimony owl-carousel ftco-owl">
               <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>
-                </div>
-              </div>
+                <img src="images/ab1.jpg"/>
+			  </div>
+			  <div class="item">
+			  	<img src="images/ab2.jpg" />
+			  </div>
+			  <div class="item">
+			  	<img src="images/ab3.jpg" />
+			  </div>
+			  <div class="item">
+			  	<img src="images/ab4.jpg" />
+			  </div>
+			  <div class="item">
+			  	<img src="images/ab5.jpg"/>
+			  </div>
+			  <div class="item">
+			  	<img src="images/ab6.jpg"/>
+			  </div>
+			  <div class="item">
+			  	<img src="images/ab7.jpg" />
+			  </div>
+			  <div class="item">
+			  	<img src="images/ab8.jpg" />
+			  </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
 
 
@@ -569,7 +550,7 @@
     	</div>
     </section> -->
 
-    <section class="ftco-section">
+    <!-- <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -631,7 +612,7 @@
           </div>
         </div>
       </div>
-    </section>	
+    </section>	 -->
 
     <footer class="ftco-footer">
       <div class="container">

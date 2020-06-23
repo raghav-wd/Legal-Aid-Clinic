@@ -8712,7 +8712,7 @@ textarea.form-control {
     .book-wrap:hover .img .in-text {
       opacity: 1; }
     .book-wrap:hover .text {
-      background: #95adbe;
+      background: #ffab00;
       color: rgba(255, 255, 255, 0.8); }
       .book-wrap:hover .text .price {
         color: #fff; }
