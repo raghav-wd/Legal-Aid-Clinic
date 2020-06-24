@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<style>
+		@font-face {
+			font-family: CarterOne-Regular;
+			src: url(fonts/CarterOne-Regular.ttf);
+		}
 		.item{
 			height: 150px;
 		}
@@ -56,6 +60,10 @@
 			display: inline-block;
 			background-color: #212121;
 		}
+		.quote-m{
+			color: #212121;
+			font-family: family;
+		}
 		@media only screen and (max-width: 600px) {
 			.help-sec {
 				padding: 24px 8px 24px 8px;
@@ -66,6 +74,11 @@
 			}
 			.hero-wrap{
 				height: 70vh;
+			}
+			.quote-m{
+				transform: translateY(-110px);
+				font-weight: 800;
+				font-family:CarterOne-Regular;
 			}
 		}
 	</style>
@@ -129,7 +142,7 @@
         <div class="row no-gutters slider-text align-items-center">
           <div class="col-md-8 ftco-animate d-flex align-items-end">
           	<div class="text w-100">
-	            <h1 class="mb-4" style="font-family: fantasy;color: #212121">Equal Access<br/>To Justice<br/>For All</h1>
+	            <h1 class="mb-4 quote-m">Equal Access<br/>To Justice<br/>For All</h1>
 	            <!-- <p class="mb-4 text-white"></p>
 	            <p><a href="#" class="btn btn-primary py-3 px-4">View All Books</a> <a href="#" class="btn btn-white py-3 px-4">Explore Now</a></p> -->
             </div>
@@ -239,7 +252,7 @@
 			</div>
 		</section>
 		
-		<section class="ftco-section ftco-no-pt">
+		<!-- <section class="ftco-section ftco-no-pt">
     	<div class="container-fluid px-md-4">
     		<div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -395,7 +408,7 @@
     			</div>
     		</div>
     	</div>
-    </section>
+    </section> -->
   
     <!-- <section class="ftco-section testimony-section ftco-no-pb">
     	<div class="img img-bg border" style="background-image: url(images/bg_4.jpg);"></div>
